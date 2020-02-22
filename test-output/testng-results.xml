@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="36905" started-at="2020-02-22T18:15:39Z" finished-at="2020-02-22T18:16:16Z">
+    <groups>
+    </groups>
+    <test name="myfunrniture test" duration-ms="36905" started-at="2020-02-22T18:15:39Z" finished-at="2020-02-22T18:16:16Z">
+      <class name="TestChrome.Loginpage">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:TestChrome.Loginpage@21213b92]" name="setup" is-config="true" duration-ms="20792" started-at="2020-02-22T18:15:39Z" finished-at="2020-02-22T18:16:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="logintest()[pri:0, instance:TestChrome.Loginpage@21213b92]" name="logintest" duration-ms="15506" started-at="2020-02-22T18:16:00Z" finished-at="2020-02-22T18:16:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="tear()[pri:0, instance:TestChrome.Loginpage@21213b92]" name="tear" is-config="true" duration-ms="591" started-at="2020-02-22T18:16:15Z" finished-at="2020-02-22T18:16:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+      </class> <!-- TestChrome.Loginpage -->
+    </test> <!-- myfunrniture test -->
+  </suite> <!-- Suite -->
+</testng-results>
