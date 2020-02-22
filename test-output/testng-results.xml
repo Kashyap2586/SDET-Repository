@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="36905" started-at="2020-02-22T18:15:39Z" finished-at="2020-02-22T18:16:16Z">
+  <suite name="Suite" duration-ms="15843" started-at="2020-02-22T19:52:32Z" finished-at="2020-02-22T19:52:48Z">
     <groups>
     </groups>
-    <test name="myfunrniture test" duration-ms="36905" started-at="2020-02-22T18:15:39Z" finished-at="2020-02-22T18:16:16Z">
+    <test name="myfunrniture test" duration-ms="15843" started-at="2020-02-22T19:52:32Z" finished-at="2020-02-22T19:52:48Z">
       <class name="TestChrome.Loginpage">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:TestChrome.Loginpage@21213b92]" name="setup" is-config="true" duration-ms="20792" started-at="2020-02-22T18:15:39Z" finished-at="2020-02-22T18:16:00Z">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:TestChrome.Loginpage@2038ae61]" name="setup" is-config="true" duration-ms="2688" started-at="2020-02-22T19:52:32Z" finished-at="2020-02-22T19:52:35Z">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="logintest()[pri:0, instance:TestChrome.Loginpage@21213b92]" name="logintest" duration-ms="15506" started-at="2020-02-22T18:16:00Z" finished-at="2020-02-22T18:16:15Z">
+        <test-method status="PASS" signature="logintest()[pri:0, instance:TestChrome.Loginpage@2038ae61]" name="logintest" duration-ms="12420" started-at="2020-02-22T19:52:35Z" finished-at="2020-02-22T19:52:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logintest -->
-        <test-method status="PASS" signature="tear()[pri:0, instance:TestChrome.Loginpage@21213b92]" name="tear" is-config="true" duration-ms="591" started-at="2020-02-22T18:16:15Z" finished-at="2020-02-22T18:16:16Z">
+        <test-method status="PASS" signature="tear()[pri:0, instance:TestChrome.Loginpage@2038ae61]" name="tear" is-config="true" duration-ms="703" started-at="2020-02-22T19:52:47Z" finished-at="2020-02-22T19:52:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tear -->
