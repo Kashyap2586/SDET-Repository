@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestChrome.Loginpage" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-03-01T00:26:52" hostname="azstorageexp" time="10.743">
+  <properties/>
+  <testcase name="logintest" classname="TestChrome.Loginpage" time="10.743"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 17726
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1583022411.663][WARNING]: This version of ChromeDriver has not been tested with Chrome version 80.
+Mar 01, 2020 12:26:52 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>
