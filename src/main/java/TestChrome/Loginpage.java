@@ -4,7 +4,9 @@ import java.util.concurrent.TimeUnit;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import Testpackage.Loginbasepage;
+
+import utility.Loginbasepage;
+
 
 
 public class Loginpage extends BasePage{
