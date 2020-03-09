@@ -1,11 +1,12 @@
-package Testpackage;
+package utility;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.apache.log4j.*;
-import org.apache.logging.*;
+//import org.apache.logging.log4j.Logmanger*;
+//import org.apache.logger.*;
+
 
 
 import TestChrome.Loginpage;
@@ -14,6 +15,8 @@ public class Loginbasepage extends Loginpage {
 	
 	WebDriver ldriver;
 	//Logger log = Logger.getLogger("devpinoyLogger");
+	//LoggerManager log = LoggerManager.getLogger("devpinoyLogger");
+	
 	
 	public Loginbasepage(WebDriver rdriver){
 		
