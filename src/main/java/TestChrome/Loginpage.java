@@ -1,5 +1,6 @@
 package TestChrome;
 
+import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 import org.testng.Assert;
@@ -13,7 +14,7 @@ public class Loginpage extends BasePage{
 	
 	
 	@Test
-	public void logintest() {
+	public void logintest() throws IOException {
 		
 		driver.get(baseUrl);
 		driver.manage().window().maximize();
@@ -52,6 +53,7 @@ public class Loginpage extends BasePage{
 		
 		if(driver.getTitle().equals("Book My Furniture - QA(2.3.2)-Final"))
 		{
+			capturescreenshot(driver,"logintest");
 			Assert.assertTrue(true);
 		}
 		else
